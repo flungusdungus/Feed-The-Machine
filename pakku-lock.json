@@ -597,6 +597,48 @@
             ]
         },
         {
+            "pakku_id": "LiVQFL0hO3kzw3Sq",
+            "pakku_links": [
+                "P7WLyaK0X2ZiNCWW"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "biomesize"
+            },
+            "name": {
+                "curseforge": "Biome Sizes[Forge/Fabric]"
+            },
+            "id": {
+                "curseforge": "775502"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "biomesize-1.20.1-1.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7541/878/biomesize-1.20.1-1.6.jar",
+                    "id": "7541878",
+                    "parent_id": "775502",
+                    "hashes": {
+                        "sha1": "b513e9447b1f5d19b63da324cb75a38a370a7c99",
+                        "md5": "b87275e69517939de912b6e822d072a5"
+                    },
+                    "required_dependencies": [
+                        "326652"
+                    ],
+                    "size": 12857,
+                    "date_published": "2026-01-28T18:05:44.540Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "BofiYrZO1exzoolo",
             "type": "MOD",
             "slug": {
