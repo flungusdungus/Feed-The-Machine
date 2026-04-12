@@ -1790,6 +1790,49 @@
             ]
         },
         {
+            "pakku_id": "py0Y9vVQryupfPHW",
+            "pakku_links": [
+                "wIb0Id7oeqVY8yZO",
+                "2tsaie60xPCUp1X3"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "emi-backport"
+            },
+            "name": {
+                "curseforge": "EMI++ Backport"
+            },
+            "id": {
+                "curseforge": "1411826"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "emixx-forge-1.3.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7809/836/emixx-forge-1.3.3.jar",
+                    "id": "7809836",
+                    "parent_id": "1411826",
+                    "hashes": {
+                        "sha1": "58dfd8fbc13845fc103065c1f4958766ef48edc2",
+                        "md5": "c80c000533e4d0767be1aedffce64960"
+                    },
+                    "required_dependencies": [
+                        "351264",
+                        "580555"
+                    ],
+                    "size": 394727,
+                    "date_published": "2026-03-25T07:36:04.870Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LVYiqveVYUV1V7Jb",
             "pakku_links": [
                 "PFB9XCl98janu0Zl"
@@ -3089,6 +3132,42 @@
                     ],
                     "size": 55258,
                     "date_published": "2023-07-24T22:59:56.820Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TzxLhuH6hb2p35k3",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "libx"
+            },
+            "name": {
+                "curseforge": "LibX"
+            },
+            "id": {
+                "curseforge": "412525"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "LibX-1.20.1-5.0.14.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/5207/625/LibX-1.20.1-5.0.14.jar",
+                    "id": "5207625",
+                    "parent_id": "412525",
+                    "hashes": {
+                        "sha1": "d75610b0c34626cea8b1155a47d28333cc1f58a2",
+                        "md5": "3c0c0cdac0482e1f78a28614bebce36a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1258082,
+                    "date_published": "2024-03-24T12:29:30.913Z"
                 }
             ]
         },
@@ -4915,6 +4994,47 @@
                     ],
                     "size": 158164,
                     "date_published": "2023-08-19T13:50:11.310Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "FI0HqsjRICucTXQs",
+            "pakku_links": [
+                "TzxLhuH6hb2p35k3"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "travel-anchors"
+            },
+            "name": {
+                "curseforge": "Travel Anchors"
+            },
+            "id": {
+                "curseforge": "413234"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "TravelAnchors-1.20.1-5.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4683/662/TravelAnchors-1.20.1-5.0.1.jar",
+                    "id": "4683662",
+                    "parent_id": "413234",
+                    "hashes": {
+                        "sha1": "255b95facb3f2c4d2f886634b3d8746b00b580dd",
+                        "md5": "0d4071970be114c3cff7ec6fe677d83b"
+                    },
+                    "required_dependencies": [
+                        "412525"
+                    ],
+                    "size": 89405,
+                    "date_published": "2023-08-05T14:53:23.997Z"
                 }
             ]
         },
