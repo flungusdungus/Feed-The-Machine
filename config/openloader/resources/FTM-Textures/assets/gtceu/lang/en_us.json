@@ -1,0 +1,16 @@
+{
+  "material.gtceu.hardtack": "Hardtack",
+  "tagprefix.wire_cutter_head": "%s Cheeswire Wire",
+  "item.gtceu.tool.wire_cutter": "%s Cheeswire",
+  "gtceu.tool.class.wire_cutter": "Cheesewire",
+  "death.attack.gtceu.wire_cutter": "%s was sliced in half with a cheesewire by %s",
+  "gtceu.multiblock.universal.problem.wire_cutter": "%s§7Too much cheese. (§aCheesewire§7)",
+  "gtceu.multiblock.universal.problem.crowbar": "%s§7Soup's overflowing. (§aLadle§7)",
+  "gtceu.multiblock.universal.problem.hard_hammer": "%s§7Meat needs tenderizing. (§aMeat Tenderizer§7)",
+  "gtceu.multiblock.universal.problem.screwdriver": "%s§7Egg whites still aren't beaten enough. (§aWhisk§7)",
+  "gtceu.multiblock.universal.problem.soft_mallet": "%s§7Stir fry needs stirring. (§aWooden Spoon§7)",
+  "gtceu.multiblock.universal.problem.wrench": "%s§7Pancakes need flipping. (§aSpatula§7)",
+  "item.gtceu.tool.lv_wirecutter": "%s Cheesewire (LV)",
+  "item.gtceu.tool.hv_wirecutter": "%s Cheeswire (HV)",
+  "item.gtceu.tool.iv_wirecutter": "%s Cheesewire (IV)"
+}
