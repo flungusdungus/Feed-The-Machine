@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('hardtack')
         .ingot()
         .color(0xa18154).iconSet(GTMaterialIconSet.DULL)
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR)
+        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR)
         .toolStats(new ToolProperty(3.0, 7.0, 1535, 3,
             [
                 GTToolType.SCYTHE,

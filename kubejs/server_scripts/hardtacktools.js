@@ -1,7 +1,3 @@
-ServerEvents.tags('item', event => {
-    event.add('forge:ingots', 'kubejs:hardtack')
-    event.add('balm:ingots', 'kubejs:hardtack')
-})
 ServerEvents.recipes(event => {
     event.shaped(
         Item.of('gtceu:hardtack_scythe', 1),
@@ -11,7 +7,7 @@ ServerEvents.recipes(event => {
             '  B'
         ],
         {
-            A: 'kubejs:hardtack',
+            A: 'gtceu:hardtack_ingot',
             B: 'minecraft:stick',
         }
     )

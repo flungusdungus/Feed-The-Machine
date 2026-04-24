@@ -1,3 +1,12 @@
-EmiPlusPlusEvents.registerGroups(event => {
-    event.register("mypack:pine_green", "#railways:palettes/cycle_groups/pine_green")
-})
+ClientEvents.highPriorityAssets((event) => {
+    event.add("emi:recipe/filters/remove", {
+        filters: [
+            {
+                category: "emi:anvil_repairing",
+            },
+            {
+                category: "emi:grinding",
+            },
+        ],
+    });
+});

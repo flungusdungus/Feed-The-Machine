@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gtceu:item/tools/electric_wirecutter_head"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "filters": [
+    {
+      "category": "emi:anvil_repairing"
+    },
+    {
+      "category": "emi:grinding"
+    },
+    {
+      "category": "create:fan_blasting"
+    },
+    {
+      "category": "create:fan_smoking"
+    },
+    {
+      "category": "create:spout_filling"
+    },
+    {
+      "category": "create:draining"
+    },
+    {
+      "category": "create:deploying"
+    }
+  ]
+}
