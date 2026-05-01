@@ -1,10 +1,13 @@
 Platform.mods.kubejs.name = 'Feed The Machine'
+
 GTCEuStartupEvents.registry('gtceu:material', event => {
+    GTMaterials.Iron.addFlags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FINE_WIRE)
+    GTMaterials.Diamond.addFlags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FINE_WIRE)
     event.create('hardtack')
         .ingot()
         .color(0xa18154).iconSet(GTMaterialIconSet.DULL)
-        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR)
-        .toolStats(new ToolProperty(3.0, 7.0, 1535, 3,
+        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+        .toolStats(new ToolProperty(3.0, 9.0, 1535, 3,
             [
                 GTToolType.SCYTHE,
                 GTToolType.HARD_HAMMER,
@@ -35,7 +38,17 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
                 GTToolType.WRENCH,
                 GTToolType.WRENCH_LV,
                 GTToolType.WRENCH_HV,
-                GTToolType.WRENCH_IV
+                GTToolType.WRENCH_IV,
+                GTToolType.SWORD,
+                GTToolType.PICKAXE
             ]))
         .fluidPipeProperties(2000, 200, true, true, false, false)
-    })
+    event.create('wooden')
+        .ingot()
+        .color(0xc29f6d).iconSet(GTMaterialIconSet.DULL)
+        .toolStats(new ToolProperty(3.0, 7.0, 128, 3,
+            [
+                GTToolType.SOFT_MALLET
+            ]))
+
+})

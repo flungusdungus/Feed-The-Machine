@@ -1,8 +1,13 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'gtceu:hardtack_wire_cutter' })
-    event.remove({ output: 'gtceu:iron_wire_cutter' })
-    event.remove({ output: '#gtceu:scythes' })
-    event.remove({ output: '#gtceu:tools' })
+    const toolMats = ["hardtack", "iron", "diamond"]
+    toolMats.forEach(mat => {
+        event.remove({ output: "gtceu:"+ mat + "_drill_head"})
+        event.remove({ output: "gtceu:"+ mat + "_screwdriver_tip"})
+        event.remove({ output: "gtceu:"+ mat + "_wire_cutter_head"})
+        event.remove({ output: "gtceu:"+ mat + "_chainsaw_head"})
+        event.remove({ output: "gtceu:"+ mat + "_wrench_tip"})
+    })
+    event.remove({ output: "gtceu:hardtack_wrench"})
 
     event.remove({type: 'create:mixing'})
     event.remove({type: 'create:crushing'})

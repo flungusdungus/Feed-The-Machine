@@ -5,7 +5,7 @@
   "gtceu.tool.class.wire_cutter": "Cheesewire",
   "death.attack.gtceu.wire_cutter": "%s was sliced in half with a cheesewire by %s",
   "gtceu.multiblock.universal.problem.wire_cutter": "%s§7Too much cheese. (§aCheesewire§7)",
-  "gtceu.multiblock.universal.problem.crowbar": "%s§7Soup's overflowing. (§aLadle§7)",
+  "gtceu.multiblock.universal.problem.crowbar": "%s§7Soup is overflowing. (§aLadle§7)",
   "gtceu.multiblock.universal.problem.hard_hammer": "%s§7Meat needs tenderizing. (§aMeat Tenderizer§7)",
   "gtceu.multiblock.universal.problem.screwdriver": "%s§7Egg whites still aren't beaten enough. (§aWhisk§7)",
   "gtceu.multiblock.universal.problem.soft_mallet": "%s§7Stir fry needs stirring. (§aWooden Spoon§7)",
@@ -65,5 +65,6 @@
   "item.gtceu.tool.iv_screwdriver": "%s Whisk (IV)",
   "item.gtceu.tool.lv_screwdriver": "%s Whisk (LV)",
   "item.gtceu.tool.screwdriver": "%s Whisk",
-  "tagprefix.screwdriver_tip": "%s Whisk Head"
+  "tagprefix.screwdriver_tip": "%s Whisk Head",
+  "material.gtceu.wooden": "Wooden"
 }

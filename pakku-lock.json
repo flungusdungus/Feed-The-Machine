@@ -282,42 +282,6 @@
             ]
         },
         {
-            "pakku_id": "NkKInftRmAbRXdLl",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "architects-palette"
-            },
-            "name": {
-                "curseforge": "Architect's Palette"
-            },
-            "id": {
-                "curseforge": "433862"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Architects-Palette-1.20.1-1.3.6.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5060/610/Architects-Palette-1.20.1-1.3.6.1.jar",
-                    "id": "5060610",
-                    "parent_id": "433862",
-                    "hashes": {
-                        "sha1": "a8f4ca56f23007ad3a34d9fcbda2f241d86c314b",
-                        "md5": "0622fec812ffb8d1fd777788198b9322"
-                    },
-                    "required_dependencies": [],
-                    "size": 2538637,
-                    "date_published": "2024-01-26T10:56:40.667Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "FXNKMvH6JiRMbecG",
             "type": "MOD",
             "slug": {
@@ -1527,48 +1491,6 @@
             ]
         },
         {
-            "pakku_id": "tJTA4izlwhB2GdFb",
-            "pakku_links": [
-                "9aWch6ivxiftngO4"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-steam-n-rails"
-            },
-            "name": {
-                "curseforge": "Create: Steam 'n' Rails"
-            },
-            "id": {
-                "curseforge": "688231"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Steam_Rails-1.7.2+forge-mc1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7758/640/Steam_Rails-1.7.2+forge-mc1.20.1.jar",
-                    "id": "7758640",
-                    "parent_id": "688231",
-                    "hashes": {
-                        "sha1": "15d317afd2459368b19c23f2bdfefdeb87708bdd",
-                        "md5": "ec91d63c97ff08beb324f34399f1bf1a"
-                    },
-                    "required_dependencies": [
-                        "328085"
-                    ],
-                    "size": 16819720,
-                    "date_published": "2026-03-14T22:41:35.783Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "4MXFNk2eYkGrJSZF",
             "type": "MOD",
             "slug": {
@@ -1986,6 +1908,47 @@
             ]
         },
         {
+            "pakku_id": "FoSTiUhrwnCVhO9w",
+            "pakku_links": [
+                "35bzbvSQjkntLpWn"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "eventjs"
+            },
+            "name": {
+                "curseforge": "EventJS"
+            },
+            "id": {
+                "curseforge": "1132802"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EventJS-1.20.1-1.4.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7143/82/EventJS-1.20.1-1.4.3.jar",
+                    "id": "7143082",
+                    "parent_id": "1132802",
+                    "hashes": {
+                        "sha1": "2a667cf12d598060271afeb3a83b5fec7594297c",
+                        "md5": "de4db301bb68103df165285cdc6c2478"
+                    },
+                    "required_dependencies": [
+                        "238086"
+                    ],
+                    "size": 49143,
+                    "date_published": "2025-10-24T04:12:29.810Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Al8HMgFeAS40NGMf",
             "pakku_links": [
                 "9179tvbS0fXwi6ic",
@@ -2234,43 +2197,6 @@
                     ],
                     "size": 248592,
                     "date_published": "2025-01-27T16:07:52.110Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "yu7mETu9xPhu2r8c",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "farmers-delight"
-            },
-            "name": {
-                "curseforge": "Farmer's Delight"
-            },
-            "id": {
-                "curseforge": "398521"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "FarmersDelight-1.20.1-1.2.11.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7801/523/FarmersDelight-1.20.1-1.2.11.jar",
-                    "id": "7801523",
-                    "parent_id": "398521",
-                    "hashes": {
-                        "sha1": "76311d0d9f9064487fed060a793263744effacde",
-                        "md5": "50a4531d1ec39a9d314d48ac79f15271"
-                    },
-                    "required_dependencies": [],
-                    "size": 2963127,
-                    "date_published": "2026-03-23T20:49:41.573Z"
                 }
             ]
         },

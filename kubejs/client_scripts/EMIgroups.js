@@ -7,6 +7,9 @@ ClientEvents.highPriorityAssets((event) => {
             {
                 category: "emi:grinding",
             },
+            {
+                category: "emi:crafting/repairing",
+            },
         ],
     });
 });

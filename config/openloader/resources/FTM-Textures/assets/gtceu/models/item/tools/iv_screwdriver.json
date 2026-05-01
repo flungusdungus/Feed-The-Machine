@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gtceu:item/tools/iv_electric_screwdriver",
+    "layer1": "gtceu:item/tools/screwdriver_short"
+  }
+}
