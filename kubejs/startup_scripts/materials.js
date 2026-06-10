@@ -43,12 +43,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
                 GTToolType.PICKAXE
             ]))
         .fluidPipeProperties(2000, 200, true, true, false, false)
-    event.create('wooden')
-        .ingot()
-        .color(0xc29f6d).iconSet(GTMaterialIconSet.DULL)
-        .toolStats(new ToolProperty(3.0, 7.0, 128, 3,
-            [
-                GTToolType.SOFT_MALLET
-            ]))
 
+    event.create('bread')
+        .dust()
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+    event.create('toast')
+        .dust()
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+    event.create('sweet_berries')
+        .gem()
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 })

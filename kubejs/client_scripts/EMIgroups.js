@@ -11,5 +11,5 @@ ClientEvents.highPriorityAssets((event) => {
                 category: "emi:crafting/repairing",
             },
         ],
-    });
-});
+    })
+})

@@ -1,0 +1,7 @@
+{
+  "item.create.sand_paper": "M.U.N.C.H. Mini",
+  "item.create.sand_paper.tooltip.behaviour1": "Chews items held in the _offhand_ or lying on the _floor_ when _looking at them_",
+  "item.create.sand_paper.tooltip.condition1": "",
+  "item.create.sand_paper.tooltip.summary": "",
+  "create.recipe.sandpaper_polishing": "Munching"
+}

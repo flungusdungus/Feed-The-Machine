@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "gtceu:item/hardtack_ingot"
+    "layer0": "gtceu:item/hardtack_ingot_color",
+    "layer1": "gtceu:item/hardtack_ingot"
   }
 }

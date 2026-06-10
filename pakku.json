@@ -1,9 +1,9 @@
 {
-    "name": "PanPack Template",
+    "name": "Food Engineering",
     "version": "DEV",
-    "release_type": "release",
-    "description": "A template pack",
-    "author": "Pansmith",
+    "release_type": "alpha",
+    "description": "A food processing modpack",
+    "author": "Flungus",
     "overrides": [
         "config",
         "defaultconfigs",

@@ -7,7 +7,9 @@ ServerEvents.recipes(event => {
         event.remove({ output: "gtceu:"+ mat + "_chainsaw_head"})
         event.remove({ output: "gtceu:"+ mat + "_wrench_tip"})
     })
-    event.remove({ output: "gtceu:hardtack_wrench"})
+    event.remove({ output: 'minecraft:bread' })
+    event.remove({ output: 'gtceu:dough' })
+    event.remove({ input: 'gtceu:dough' })
 
     event.remove({type: 'create:mixing'})
     event.remove({type: 'create:crushing'})
@@ -22,4 +24,7 @@ ServerEvents.recipes(event => {
     event.remove({type: 'create:filling'})
     event.remove({type: 'create:deploying'})
     event.remove({type: 'create:mechanical_crafting'})
+    event.remove({type: 'create:sandpaper_polishing'})
+    event.remove({type: 'gtceu:alloy_blast_smelter'})
+    event.remove({type: 'gtceu:primitive_blast_furnace'})
 })
