@@ -82,5 +82,8 @@
   "block.gtceu.mv_macerator": "§bAdvanced Spice Grinder §r",
   "block.gtceu.uv_macerator": "§3Ultimate Spice Grinder §r",
   "block.gtceu.zpm_macerator": "§cElite Spice Grinder III§r",
-  "material.gtceu.sweet_berries": "Sweet Berry"
+  "material.gtceu.sweet_berries": "Sweet Berry",
+  "gtceu.cheese_shredder": "Cheese Shredder",
+  "material.gtceu.mozzarella_cheese": "Mozzarella Cheese",
+  "material.gtceu.aged_mozzarella_cheese": "Aged Mozzarella Cheese"
 }

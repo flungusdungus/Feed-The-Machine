@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     // GTCEU mat veggie slicing
-    const veggies = []
+    const veggies = ["mozzarella_cheese", "aged_mozzarella_cheese"]
     veggies.forEach(veg => {
         event.shaped(
             Item.of("gtceu:" + veg + "_plate", 1),
@@ -18,6 +18,33 @@ ServerEvents.recipes(event => {
         event.recipes.gtceu.slicer("sliced_" + veg)
             .itemInputs(
                 "1x gtceu:" + veg + "_ingot"
+            )
+            .itemOutputs(
+                "1x gtceu:" + veg + "_plate"
+            )
+            .duration(100)
+            .EUt(30)
+            .circuit(1)
+    })
+    // Vanilla veggie slicing
+    const v_veggies = []
+    v_veggies.forEach(veg => {
+        event.shaped(
+            Item.of("gtceu:" + veg + "_plate", 1),
+            [
+                " A ",
+                " B ",
+                " B "
+            ],
+            {
+                A: "#gtceu:tools/crafting_knives",
+                B: "minecraft:" + veg
+            }
+        ).damageIngredient("#gtceu:tools/crafting_knives")
+
+        event.recipes.gtceu.slicer("sliced_" + veg)
+            .itemInputs(
+                "1x minecraft:" + veg
             )
             .itemOutputs(
                 "1x gtceu:" + veg + "_plate"
