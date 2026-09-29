@@ -1,15 +1,16 @@
 ServerEvents.recipes(event => {
     const toolMats = ["hardtack", "iron", "diamond"]
     toolMats.forEach(mat => {
-        event.remove({ output: "gtceu:"+ mat + "_drill_head"})
-        event.remove({ output: "gtceu:"+ mat + "_screwdriver_tip"})
-        event.remove({ output: "gtceu:"+ mat + "_wire_cutter_head"})
-        event.remove({ output: "gtceu:"+ mat + "_chainsaw_head"})
-        event.remove({ output: "gtceu:"+ mat + "_wrench_tip"})
+        event.remove({output: "gtceu:"+ mat + "_drill_head"})
+        event.remove({output: "gtceu:"+ mat + "_screwdriver_tip"})
+        event.remove({output: "gtceu:"+ mat + "_wire_cutter_head"})
+        event.remove({output: "gtceu:"+ mat + "_chainsaw_head"})
+        event.remove({output: "gtceu:"+ mat + "_wrench_tip"})
     })
-    event.remove({ output: 'minecraft:bread' })
-    event.remove({ output: 'gtceu:dough' })
-    event.remove({ input: 'gtceu:dough' })
+    event.remove({output: 'minecraft:bread'})
+    event.remove({output: 'gtceu:dough'})
+    event.remove({input: 'gtceu:dough'})
+    event.remove({output: 'minecraft:rabbit_stew'})
 
     event.remove({type: 'create:mixing'})
     event.remove({type: 'create:crushing'})

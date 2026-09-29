@@ -1,9 +1,12 @@
 ServerEvents.recipes(event => {
     // Cheese!
-    const cheeses = ["mozzarella_cheese", "aged_mozzarella_cheese"]
-    cheeses.forEach(cheese => {
+    const cheese = [
+        ["mozzarella_cheese", 100],
+        ["aged_mozzarella_cheese", 100]
+    ]
+    cheese.forEach(recipe => {
         event.shaped(
-            Item.of("gtceu:" + cheese + "_single_wire", 1),
+            Item.of("gtceu:" + recipe[0] + "_single_wire", 1),
             [
                 "   ",
                 " BA",
@@ -11,74 +14,50 @@ ServerEvents.recipes(event => {
             ],
             {
                 A: "#gtceu:tools/crafting_wire_cutters",
-                B: "gtceu:" + cheese + "_ingot",
+                B: "gtceu:" + recipe[0] + "_ingot",
             }
         ).damageIngredient("#gtceu:tools/crafting_wire_cutters")
 
-        event.recipes.gtceu.cheese_shredder(cheese + "single_wire")
-            .itemInputs(
-                "1x gtceu:" + cheese + "_ingot"
-            )
-            .itemOutputs(
-                "2x gtceu:" + cheese + "_single_wire"
-            )
-            .duration(100)
-            .EUt(30)
+        event.recipes.gtceu.cheese_shredder(recipe[0] + "single_wire")
+            .itemInputs("1x gtceu:" + recipe[0] + "_ingot")
+            .itemOutputs("2x gtceu:" + recipe[0] + "_single_wire")
+            .duration(recipe[1])
+            .EUt(10)
             .circuit(1)
 
-        event.recipes.gtceu.cheese_shredder(cheese + "double_wire")
-            .itemInputs(
-                "1x gtceu:" + cheese + "_ingot"
-            )
-            .itemOutputs(
-                "1x gtceu:" + cheese + "_double_wire"
-            )
-            .duration(200)
-            .EUt(30)
+        event.recipes.gtceu.cheese_shredder(recipe[0] + "double_wire")
+            .itemInputs("1x gtceu:" + recipe[0] + "_ingot")
+            .itemOutputs("1x gtceu:" + recipe[0] + "_double_wire")
+            .duration(recipe[1])
+            .EUt(10)
             .circuit(2)
 
-        event.recipes.gtceu.cheese_shredder(cheese + "quadruple_wire")
-            .itemInputs(
-                "2x gtceu:" + cheese + "_ingot"
-            )
-            .itemOutputs(
-                "1x gtceu:" + cheese + "_quadruple_wire"
-            )
-            .duration(400)
-            .EUt(30)
+        event.recipes.gtceu.cheese_shredder(recipe[0] + "quadruple_wire")
+            .itemInputs("2x gtceu:" + recipe[0] + "_ingot")
+            .itemOutputs("1x gtceu:" + recipe[0] + "_quadruple_wire")
+            .duration(recipe[1] * 2)
+            .EUt(10)
             .circuit(4)
 
-        event.recipes.gtceu.cheese_shredder(cheese + "octal_wire")
-            .itemInputs(
-                "4x gtceu:" + cheese + "_ingot"
-            )
-            .itemOutputs(
-                "1x gtceu:" + cheese + "_octal_wire"
-            )
-            .duration(800)
-            .EUt(30)
+        event.recipes.gtceu.cheese_shredder(recipe[0] + "octal_wire")
+            .itemInputs("4x gtceu:" + recipe[0] + "_ingot")
+            .itemOutputs("1x gtceu:" + recipe[0] + "_octal_wire")
+            .duration(recipe[1] * 4)
+            .EUt(10)
             .circuit(8)
 
-        event.recipes.gtceu.cheese_shredder(cheese + "hex_wire")
-            .itemInputs(
-                "8x gtceu:" + cheese + "_ingot"
-            )
-            .itemOutputs(
-                "1x gtceu:" + cheese + "_hex_wire"
-            )
-            .duration(1600)
-            .EUt(30)
+        event.recipes.gtceu.cheese_shredder(recipe[0] + "hex_wire")
+            .itemInputs("8x gtceu:" + recipe[0] + "_ingot")
+            .itemOutputs("1x gtceu:" + recipe[0] + "_hex_wire")
+            .duration(recipe[1] * 8)
+            .EUt(10)
             .circuit(16)
 
-        event.recipes.gtceu.cheese_shredder("fine_" + cheese + "_wire")
-            .itemInputs(
-                "1x gtceu:" + cheese + "_ingot"
-            )
-            .itemOutputs(
-                "8x gtceu:fine_"+ cheese + "_wire"
-            )
-            .duration(150)
-            .EUt(30)
+        event.recipes.gtceu.cheese_shredder("fine_" + recipe[0] + "_wire")
+            .itemInputs("1x gtceu:" + recipe[0] + "_ingot")
+            .itemOutputs("8x gtceu:fine_" + recipe[0] + "_wire")
+            .duration(recipe[1] * 3)
+            .EUt(7)
             .circuit(3)
-        })
+    })
 })

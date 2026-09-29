@@ -1,24 +1,14 @@
 ServerEvents.recipes(event => {
     event.campfireCooking('gtceu:toast_plate', 'gtceu:bread_plate').cookingTime(400)
     event.recipes.gtceu.mixer("dough")
-        .itemInputs(
-            "6x gtceu:wheat_dust"
-        )
-        .inputFluids(
-            Fluid.of("minecraft:water", 500)
-        )
-        .itemOutputs(
-            "1x gtceu:dough"
-        )
+        .itemInputs("6x gtceu:wheat_dust")
+        .inputFluids(Fluid.of("minecraft:water", 500))
+        .itemOutputs("1x gtceu:dough")
         .duration(100)
         .EUt(30)
         .circuit(1)
     event.recipes.gtceu.primitive_blast_furnace("bread_baking")
-        .itemInputs(
-            "1x gtceu:dough", "1x #minecraft:logs_that_burn"
-        )
-        .itemOutputs(
-            "1x minecraft:bread"
-        )
+        .itemInputs("1x gtceu:dough", "1x #minecraft:logs_that_burn")
+        .itemOutputs("1x minecraft:bread")
         .duration(2000)
 })

@@ -5,3 +5,10 @@ BlockEvents.rightClicked('minecraft:sweet_berry_bush', e => {
     if (Math.floor(Math.random() * 100) == 1)
     e.block.popItemFromFace(Item.of("gtceu:flawless_sweet_berries_gem", 1), "up")
 })
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("minecraft:pig")
+        .randomChance(0.3)
+        .addLoot("gtceu:raw_ham_ingot")
+})

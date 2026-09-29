@@ -20,4 +20,25 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSlotOverlay(false, false, GuiTextures.SLOT)
         .setProgressBar(GuiTextures.PROGRESS_BAR_WIREMILL, FillDirection.LEFT_TO_RIGHT) //
         .setSound(GTSoundEntries.COMPRESSOR)
+    event.create('aging_barrel')
+        .category('FTM')
+        .setEUIO('in')
+        .setMaxIOSize(1, 1, 1, 1) //
+        .setSlotOverlay(false, false, GuiTextures.SLOT)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_BATH, FillDirection.LEFT_TO_RIGHT) //
+        .setSound(GTSoundEntries.CHEMICAL)
+    event.create('stovetop')
+        .category('FTM')
+        .setEUIO('in')
+        .setMaxIOSize(6, 1, 2, 1) //
+        .setSlotOverlay(false, false, GuiTextures.SLOT)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_BATH, FillDirection.LEFT_TO_RIGHT) //
+        .setSound(GTSoundEntries.BATH)
+    event.create('butchery')
+        .category('FTM')
+        .setEUIO('in')
+        .setMaxIOSize(2, 1, 0, 1) //
+        .setSlotOverlay(false, false, GuiTextures.SLOT)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_BENDING, FillDirection.LEFT_TO_RIGHT) //
+        .setSound(GTSoundEntries.MINER)
 })

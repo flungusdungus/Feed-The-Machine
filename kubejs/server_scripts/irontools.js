@@ -235,8 +235,19 @@ ServerEvents.recipes(event => {
             " A "
         ],
         {
+            A: "minecraft:iron_ingot"
+        }
+    )
+    event.shaped(
+        Item.of("gtceu:iron_butchery_knife", 1),
+        [
+            "AA ",
+            "AA ",
+            " B "
+        ],
+        {
             A: "minecraft:iron_ingot",
-            B: "minecraft:stick",
+            B: "minecraft:stick"
         }
     )
     const drillTiers = ["lv", "mv", "hv", "ev", "iv"]
